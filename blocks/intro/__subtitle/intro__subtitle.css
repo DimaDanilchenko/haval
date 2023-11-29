@@ -1,0 +1,18 @@
+.intro__subtitle {
+    margin-top: 40px;
+    max-width: 690px;
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 163%;
+    letter-spacing: 0em;
+    color: #fff;
+    align-self: flex-start;
+}
+
+@media  screen and (max-width: 320px) {
+    .intro__subtitle{
+        
+    }
+}

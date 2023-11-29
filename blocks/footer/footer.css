@@ -1,0 +1,29 @@
+.footer {
+    margin: 0 auto;
+    margin-top: 92px;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: calc(100% - 2*48px);
+    max-width: 1184px;
+}
+
+@media screen and (max-width: 768px) {
+    .footer{
+        width: calc(100% - 2*24px);
+    }
+}
+@media screen and (max-width: 610px) {
+    .footer{
+        width: calc(100% - 2*16px);
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 320px) {
+    .footer{
+        width: calc(100% - 2*16px);
+        margin-top: 64px;
+        flex-direction: column;
+    }
+}

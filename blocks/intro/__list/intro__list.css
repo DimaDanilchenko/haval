@@ -1,0 +1,13 @@
+.intro__list {
+    margin-top: 33px;
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0em;
+    color: #fff;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0;
+}
