@@ -1,0 +1,9 @@
+.intro__timer {
+  box-sizing: border-box;
+  width: 571px;
+  height: 130px;
+  margin-right: 113px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

@@ -1,8 +1,8 @@
 .cars__item-wrapper{
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 39px;
     background-color: white;
-    width: calc(100% - 10*2px);
+    width: calc(100% - 40*2px);
     display: flex;
     flex-direction: column;
     justify-content: center;

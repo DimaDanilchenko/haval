@@ -1,4 +1,10 @@
-.cars__item-subtitle{
+.cars__item-subtitle {
     margin: 0;
     margin-left: 20px;
+    color: #000;
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
 }

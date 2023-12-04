@@ -1,11 +1,21 @@
-.cars__item-button-price{
+.cars__item-button-price {
+    margin: 0 auto;
     margin-bottom: 10px;
-    height: 30px;
+    width: 480px;
+    height: 60px;
     background-color: #00cabf;
-    color: white;
-    font-size: 20px;
     border: none;
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-size: 13.563px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+
 }
-.cars__item-button-price:hover{
+
+.cars__item-button-price:hover {
     cursor: pointer;
 }

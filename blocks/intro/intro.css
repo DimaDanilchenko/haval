@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row;
     background-color: #dbdbdb;
-    height: 160px;
+    height: 205px;
 }
 @media screen and (max-width: 1024px) {
     .intro{

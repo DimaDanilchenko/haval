@@ -1,11 +1,20 @@
-.cars__item-button-credit{
+.cars__item-button-credit {
+    margin: 0 auto;
+    width: 480px;
+    height: 60px;
     margin-bottom: 10px;
-    height: 30px;
     background-color: black;
-    color: white;
-    font-size: 20px;
     border: none;
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-size: 13.563px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
 }
-.cars__item-button-credit:hover{
+
+.cars__item-button-credit:hover {
     cursor: pointer;
 }

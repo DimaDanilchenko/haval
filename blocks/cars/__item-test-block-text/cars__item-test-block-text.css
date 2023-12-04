@@ -1,5 +1,10 @@
-.cars__item-test-block-text{
+.cars__item-test-block-text {
     margin: 0;
-    font-size: 20px;
-    max-width: 200px;
+    max-width: 117px;
+    color: #000;
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
 }

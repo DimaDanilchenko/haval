@@ -1,7 +1,11 @@
-.cars__item-title{
+.cars__item-title {
     margin: 0;
-    font-family: 'Haval', 'Inter', sanf-serif;
-    font-size: 20px;
+    font-family: 'Inter', 'Arial', sans-serif;
     margin-left: 20px;
-    
+    color: #000;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30.6px;
+    margin-bottom: 20px;
 }

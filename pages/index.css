@@ -6,6 +6,8 @@
 @import url(../blocks/page/page.css);
 
 @import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo-image/header__logo-image.css);
+@import url(../blocks/header/__logo-link2/header__logo-link2.css);
 @import url(../blocks/header/__nav/header__nav.css);
 @import url(../blocks/header/__nav-items/header__nav-items.css);
 @import url(../blocks/header/__nav-item/header__nav-item.css);
@@ -20,6 +22,7 @@
 @import url(../blocks/header/__nav-item-icon/header__nav-item-icon.css);
 @import url(../blocks/header/__nav-item-list/header__nav-item-list.css);
 @import url(../blocks/header/__nav-items/header__nav-items.css);
+@import url(../blocks/header/__nav-item-link/header__nav-item-link.css);
 @import url(../blocks/header/__nav-list/header__nav-list.css);
 @import url(../blocks/header/__nav-lists/header__nav-list.css);
 @import url(../blocks/header/__place/header__place.css);
@@ -36,6 +39,14 @@
 @import url(../blocks/lead/__text/lead__text.css);
 @import url(../blocks/lead/__text-other/lead__text-other.css);
 @import url(../blocks/lead/__background/lead__background.css);
+
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__button/intro__button.css);
+@import url(../blocks/intro/__message/intro__message.css);
+@import url(../blocks/intro/__message-image/intro__message-image.css);
+@import url(../blocks/intro/__timer-text/intro__timer-text.css);
+@import url(../blocks/intro/__timer/intro__timer.css);
+@import url(../blocks/intro/__script/intro__script.css);
 
 @import url(../blocks/cars/cars.css);
 @import url(../blocks/cars/__item/cars__item.css);
@@ -61,11 +72,19 @@
 @import url(../blocks/cars/__item-title-block/cars__item-title-block.css);
 @import url(../blocks/cars/__item-wrapper/cars__item-wrapper.css);
 @import url(../blocks/cars/__item-button_active/cars__item-button_active.css);
-
-@import url(../blocks/intro/intro.css);
-@import url(../blocks/intro/__button/intro__button.css);
-@import url(../blocks/intro/__message/intro__message.css);
-@import url(../blocks/intro/__message-image/intro__message-image.css);
-@import url(../blocks/);
+@import url(../blocks/cars/__item-button-instock-number/cars__item-button-instock-number.css);
 
 @import url(../blocks/footer/footer.css);
+
+
+@import url(../blocks/profile-popup/profile-popup.css);
+@import url(../blocks/profile-popup/__close/profile-popup__close.css);
+@import url(../blocks/profile-popup/__container/profile-popup__container.css);
+@import url(../blocks/profile-popup/__form/profile-popup__form.css);
+@import url(../blocks/profile-popup/__image/profile-popup__image.css);
+@import url(../blocks/profile-popup/__input/profile-popup__input.css);
+@import url(../blocks/profile-popup/__save/profile-popup__save.css);
+@import url(../blocks/profile-popup/__title/profile-popup__title.css);
+@import url(../blocks/profile-popup/_opened/profile-popup_opened.css);
+
+@import url(../blocks/popup/_open/popup_open.css);

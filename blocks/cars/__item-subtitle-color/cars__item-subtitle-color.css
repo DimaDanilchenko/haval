@@ -1,4 +1,8 @@
-.cars__item-subtitle-color{
-    color: #00cabf;
-    font-weight: 600;
+.cars__item-subtitle-color {
+    color: var(--blue, #00CABF);
+    font-family: Haval;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }

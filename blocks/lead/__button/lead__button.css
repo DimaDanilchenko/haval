@@ -1,13 +1,20 @@
-.lead__button{
+.lead__button {
     background-color: #00cabf;
     color: white;
-    width: 400px;
+    width: 374px;
     height: 60px;
-    font-size: 26px;
+    padding: 21px 23px 20px 22px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    font-family: 'Inter', 'Arial', sans-serif;
     border: none;
     position: absolute;
-    margin-top: 50px;
+    margin-top: 231px;
 }
-.lead__button:hover{
+
+.lead__button:hover {
     cursor: pointer;
 }

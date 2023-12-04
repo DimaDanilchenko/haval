@@ -1,8 +1,9 @@
 .cars__item{
     background-color: #dbdbdb;
-    margin-right: 20px;
+    margin-right: 31px;
     position: relative;
     margin-bottom: 20px;
+    width: 560px;
 }
 @media screen and (max-width: 1010px) {
     .cars__item{

@@ -15,7 +15,7 @@
         <div class="header__logo">
             <a class="header__logo-link" href="#"><img class="header__logo-image" src="./images/logo1.png"></a>
             <div class="header__logo-rectangle"></div>
-            <a class="header__logo-link" href="#"><img class="header__logo-image" src="./images/logo2.png"></a>
+            <a class="header__logo-link2" href="#"><img class="header__logo-image2" src="./images/logo2.png"></a>
         </div>
         <div class="header__tel">
             <img class="header__tel-image" src="./images/phone.png"></a>
@@ -28,15 +28,15 @@
     </header>
     <nav class="header__nav">
         <ul class="header__nav-items">
-            <li><a href="#" class="header__nav-item">M6</a></li>
-            <li><a href="#" class="header__nav-item">DARGO X</a></li>
-            <li><a href="#" class="header__nav-item">DARGO</a></li>
-            <li><a href="#" class="header__nav-item">JOLION</a></li>
-            <li><a href="#" class="header__nav-item">FX7</a></li>
-            <li><a href="#" class="header__nav-item">F7</a></li>
-            <li><a href="#" class="header__nav-item">H9</a></li>
-            <li><a href="#" class="header__nav-item">GWM Poer</a></li>
-            <li><a href="#" class="header__nav-item">GWM Poer KINGKONG</a></li>
+            <li class="header__nav-item"><a href="#" class="header__nav-item-link">M6</a></li>
+            <li class="header__nav-item"><a href="#" class="header__nav-item-link">DARGO X</a></li>
+            <li class="header__nav-item"><a href="#" class="header__nav-item-link">DARGO</a></li>
+            <li class="header__nav-item"><a href="#" class="header__nav-item-link">JOLION</a></li>
+            <li class="header__nav-item"><a href="#" class="header__nav-item-link">FX7</a></li>
+            <li class="header__nav-item"><a href="#" class="header__nav-item-link">F7</a></li>
+            <li class="header__nav-item"><a href="#" class="header__nav-item-link">H9</a></li>
+            <li class="header__nav-item"><a href="#" class="header__nav-item-link">GWM Poer</a></li>
+            <li class="header__nav-item"><a href="#" class="header__nav-item-link">GWM Poer KINGKONG</a></li>
         </ul>
         <ul class="header__nav-lists">
             <li><a href="#" class="header__nav-list">ПОДОБРАТЬ КОМПЛЕКТАЦИЮ</a></li>
@@ -48,18 +48,21 @@
       <section class="lead">
         <img class="lead__background" src="./images/div_content.png">
         <p class="lead__text">Увеличиваем выгоды на HAVAL <span class="lead__text-other">в Химках к Чёрной пятнице!</span></p>
-        <button class="lead__button" type="button" arial-label="popap text">ЗАФИКСИРОВАТЬ УСЛОВИЯ</button>
+        <button class="button-click lead__button" type="button" arial-label="popap text">ЗАФИКСИРОВАТЬ УСЛОВИЯ</button>
       </section>
       <section class="intro">
         <button class="intro__message" type="button"><img class="intro__message-image" src="./images/chat.svg"></button>
-        <div class="intro__timer"><script src="//megatimer.ru/get/284442bcda981d52dee8d72424062f73.js"></script></div>
-        <button class="intro__button" type="button" arial-label="popap text">Зафиксировать условия</button>
+        <div class="intro__timer">
+            <p class="intro__timer-text">Оставьте заявку и зафиксируйте условия</p>
+            <div class="intro__script"><script src="//megatimer.ru/get/93daaa06f3418e462f7ff01ea650862f.js"></script></div>
+        </div>
+        <button class="button-click1 intro__button" type="button" arial-label="popap text">Зафиксировать условия</button>
       </section>
       
       <section class="cars">
       
         <div class="cars__item">
-            <button class="cars__item-button-instock">В наличии&nbsp;<span class="cars__item-button-instock-number">21 автомобиль</span></button>
+            <button class="cars__item-button-instock">В наличии&nbsp;<br><span class="cars__item-button-instock-number">21 автомобиль</span></button>
             <div class="cars__item-wrapper">
                 <div class="cars__item-title-block">
                 <p class="cars__item-title">HAVAL M6</p>
@@ -113,7 +116,7 @@
                 </ul>
             </div>
             <div class="cars__item-buttons">
-                <button class="cars__item-button-price">Узнать стоимость</button>
+                <button class="button-click2 cars__item-button-price">Узнать стоимость</button>
                 <button class="cars__item-button-credit">Рассчитать кредит</button>
                 <button class="cars__item-button-complekt">Подобрать комплектацию</button>
             </div>
@@ -190,7 +193,20 @@
     <footer class="footer">
       
     </footer>
-  </div>
+
+    <div class="popup profile-popup">
+        <div class="profile-popup__container">
+            <button class="profile-popup__close" aria-label="popup-close">
+              <img class="popup__close profile-popup__image" src="./images/Close_Icon.svg" alt="Закрыть окно">
+            </button>
+            <h3 class="profile-popup__title">Введите свой телефон:</h3>
+            <form name="popupForm" method="post" class="profile-popup__form">
+              <input type="tel" class="profile-popup__input profile-popup__input_type_tel" name="popupTel" placeholder="Телефон">
+              <button class="profile-popup__save" type="submit">Заказать звонок!</button>
+            </form>
+        </div>
+      </div>
+      <script src="./script.js"></script>
 </body>
 
 </html>

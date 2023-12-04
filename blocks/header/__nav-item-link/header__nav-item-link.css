@@ -1,0 +1,17 @@
+.header__nav-item-link {
+  margin: 0;
+  padding: 0;
+  margin-right: 13px;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-size: 10.656px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: white;
+}
+
+.header__nav-item-link:hover {
+  opacity: 0.8;
+}

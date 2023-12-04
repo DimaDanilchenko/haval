@@ -1,4 +1,13 @@
-.header__tel-text{
+.header__tel-text {
     margin: 0;
-    width: 200px;
+    margin-top: 29px;
+    margin-right: 98px;
+    width: 207px;
+    height: 17px;
+    color: var(--white, #FFF);
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }

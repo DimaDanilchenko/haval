@@ -1,13 +1,17 @@
-.header__nav-list{
-        margin: 0;
-        font-family: 'Haval', 'Inter', sanf-serif;
-        font-style: normal;
-        text-decoration: none;
-        list-tyle-type: none;
-        padding: 0;
-        color: white;
-        margin-right: 15px;
+.header__nav-list {
+    margin: 0;
+    padding: 0;
+    margin-right: 15px;
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
 }
-.header__nav-list:hover{
+
+.header__nav-list:hover {
     opacity: 0.8;
 }

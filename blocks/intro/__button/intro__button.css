@@ -1,11 +1,19 @@
-.intro__button{
-    width: 300px;
+.intro__button {
+    width: 476px;
     background-color: #00cabf;
     color: white;
     border: none;
-    height: 40px;
+    height: 70px;
+    font-family: 'Inter', 'Arial', sans-serif;
     align-self: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-right: 20px;
 }
-.intro__button:hover{
+
+.intro__button:hover {
     cursor: pointer;
 }

@@ -1,9 +1,7 @@
 .header__tel{
     display: flex;
     flex-direction: row;
-    margin-right: 20px;
-    align-items: center;
-    margin-top: 10px;
+
 }
 @media screen and (max-width: 768px) {
     .header__tel{

@@ -1,0 +1,9 @@
+.cars__item-button-instock-number {
+  color: var(--white, #000);
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}

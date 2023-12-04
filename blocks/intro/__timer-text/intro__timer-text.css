@@ -1,0 +1,14 @@
+.intro__timer-text {
+  margin: 0;
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 3px;
+  width: 554px;
+  color: #000;
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}

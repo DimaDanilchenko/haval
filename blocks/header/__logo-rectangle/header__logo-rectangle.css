@@ -1,7 +1,8 @@
 .header__logo-rectangle{
-    height: 30px;
-    width: 5px;
-    background-color: white;
-    align-self: center;
-    margin-right: 20px;
+    width: 1px;
+    height: 22px;
+    flex-shrink: 0;
+    background: var(--white, #FFF);
+    margin-right: 16px;
+    margin-top: 36px;
 }
