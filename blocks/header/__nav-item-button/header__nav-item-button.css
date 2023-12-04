@@ -1,0 +1,15 @@
+.header__nav-item-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    background-color: black;
+    border-radius: 50%;
+    border: none;
+}
+.header__nav-item-button:hover{
+    background-color: #00cabf;
+    cursor: pointer;
+}

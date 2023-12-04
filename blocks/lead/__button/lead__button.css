@@ -1,0 +1,13 @@
+.lead__button{
+    background-color: #00cabf;
+    color: white;
+    width: 400px;
+    height: 60px;
+    font-size: 26px;
+    border: none;
+    position: absolute;
+    margin-top: 50px;
+}
+.lead__button:hover{
+    cursor: pointer;
+}

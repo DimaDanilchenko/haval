@@ -1,0 +1,13 @@
+.header__nav-list{
+        margin: 0;
+        font-family: 'Haval', 'Inter', sanf-serif;
+        font-style: normal;
+        text-decoration: none;
+        list-tyle-type: none;
+        padding: 0;
+        color: white;
+        margin-right: 15px;
+}
+.header__nav-list:hover{
+    opacity: 0.8;
+}

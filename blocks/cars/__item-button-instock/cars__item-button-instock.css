@@ -1,0 +1,14 @@
+.cars__item-button-instock{
+    position: absolute;
+    top: -30px;
+    right: 20px;
+    background-color: #00cabf;
+    color: white;
+    font-size: 24px;
+    width: 180px;
+    height: 60px;
+    border: none;
+}
+.cars__item-button-instock{
+    cursor: pointer;
+}

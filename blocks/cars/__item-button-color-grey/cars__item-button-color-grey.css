@@ -1,0 +1,10 @@
+.cars__item-button-color-grey{
+    width: 20px;
+    height: 20px;
+    background-color: grey;
+    border-radius: 50%;
+    border: none;
+}
+.cars__item-button-color-grey:hover{
+    cursor: pointer;
+}

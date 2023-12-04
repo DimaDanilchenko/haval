@@ -1,0 +1,4 @@
+.cars__item-presents{
+    display: flex;
+    flex-direction: row;
+}

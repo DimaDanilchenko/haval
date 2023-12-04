@@ -1,5 +1,4 @@
-.page{
-    max-width: 1980px;
+.cars__item-present{
     display: flex;
     flex-direction: column;
 }

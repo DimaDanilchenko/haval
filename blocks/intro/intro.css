@@ -1,26 +1,13 @@
-.intro {
+.intro{
     display: flex;
-    flex-direction: column;
-    width: calc(100% - 2*148px);
-    margin: 0 auto;
-    margin-top: 92px;
+    flex-direction: row;
+    background-color: #dbdbdb;
+    height: 160px;
 }
-
 @media screen and (max-width: 1024px) {
-    .intro {
-        width: calc(100% - 2*48px);
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .intro {
-        width: calc(100% - 2*24px);
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .intro {
-        width: calc(100% - 2*16px);
-        margin-top: 64px;
+    .intro{
+        flex-direction: column;
+        align-items: center;
+        
     }
 }

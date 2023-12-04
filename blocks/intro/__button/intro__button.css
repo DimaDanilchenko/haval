@@ -1,0 +1,11 @@
+.intro__button{
+    width: 300px;
+    background-color: #00cabf;
+    color: white;
+    border: none;
+    height: 40px;
+    align-self: center;
+}
+.intro__button:hover{
+    cursor: pointer;
+}

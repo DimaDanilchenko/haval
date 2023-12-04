@@ -1,14 +1,11 @@
-.header{
-    background-color: black;
-    color: white;
+.header__nav{
     display: flex;
     flex-direction: row;
-    border-bottom: 1px solid grey;
+    background-color: black;
     justify-content: center;
-
 }
-@media screen and (max-width: 768px) {
-    .header{
+@media screen and (max-width: 1126px) {
+    .header__nav{
         flex-direction: column;
         align-items: center;
     }

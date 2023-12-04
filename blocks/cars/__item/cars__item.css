@@ -1,0 +1,19 @@
+.cars__item{
+    background-color: #dbdbdb;
+    margin-right: 20px;
+    position: relative;
+    margin-bottom: 20px;
+}
+@media screen and (max-width: 1010px) {
+    .cars__item{
+        margin-bottom: 50px;
+        margin-right: 0;
+    }
+}
+@media screen and (max-width: 510px) {
+    .cars__item{
+        margin-bottom: 50px;
+        margin-right: 0;
+        width: 100%;
+    }
+}

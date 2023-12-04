@@ -1,0 +1,11 @@
+.cars__item-button-complekt{
+    margin-bottom: 10px;
+    height: 30px;
+    background-color: none;
+    color: black;
+    font-size: 20px;
+    border: 1px solid black;
+}
+.cars__item-button-complekt:hover{
+    cursor: pointer;
+}

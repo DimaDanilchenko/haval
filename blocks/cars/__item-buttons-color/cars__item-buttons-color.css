@@ -1,0 +1,7 @@
+.cars__item-buttons-color{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 10px;
+    margin-top: 20px;
+}

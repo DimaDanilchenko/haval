@@ -1,6 +1,7 @@
-.header__logo{
+.header__nav-lists{
     display: flex;
     flex-direction: row;
+    margin: 0;
     margin-top: 10px;
-    margin-left: 10px;
+    margin-bottom: 10px;
 }

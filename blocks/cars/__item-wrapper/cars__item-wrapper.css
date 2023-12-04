@@ -1,0 +1,15 @@
+.cars__item-wrapper{
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: white;
+    width: calc(100% - 10*2px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid grey;
+}
+@media screen and (max-width: 510px) {
+    .cars__item-wrapper{
+        width: calc(100% - 20*2px);
+    }
+}
