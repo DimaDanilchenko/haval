@@ -18,4 +18,4 @@ D0%BE%D0%B2%D0%BE%D0%B5-%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD
 
 ### Ссылка на Проект
 
-Проект https://dimadanilchenko.github.io/russian-travel1/
+Проект https://dimadanilchenko.github.io/haval/
