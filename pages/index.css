@@ -23,8 +23,6 @@
 @import url(../blocks/header/__nav-item-list/header__nav-item-list.css);
 @import url(../blocks/header/__nav-items/header__nav-items.css);
 @import url(../blocks/header/__nav-item-link/header__nav-item-link.css);
-@import url(../blocks/header/__nav-list/header__nav-list.css);
-@import url(../blocks/header/__nav-lists/header__nav-list.css);
 @import url(../blocks/header/__place/header__place.css);
 @import url(../blocks/header/__place-image/header__place-image.css);
 @import url(../blocks/header/__place-text/header__place-text.css);
